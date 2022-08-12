@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+
+    <header class="titulo">
+        <h1>Verificador de Idade</h1>
+    </header><!--titulo-->
+
+    <section class="conteudo">
+
+        <div>
+            <p>Ano de Nascimento
+            <input type="number" name="txtano" id ="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="ferm">
+                <label for="ferm">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res">
+           <p>Preencha os dados acima para ver o resultado!!!</p>
+        </div>
+
+    </section><!--conteudo-->
+
+    <footer class="rodape">
+        <p>&copy; Douglas Queiroz 2022</p>
+    </footer><!--rodape-->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

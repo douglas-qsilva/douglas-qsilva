@@ -1,0 +1,27 @@
+body{
+    background: rgb(34, 158, 207);
+    font-family: normal 15pt Arial;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+}
+
+div {
+    text-align: center;
+    padding: 4px;
+}
+
+.rodape p {
+    font-style: italic;
+}
